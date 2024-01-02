@@ -41,9 +41,12 @@ li {
 /* reusable css custom classes */
 
 .container {
-  max-width: 1220px;
   width: 100%;
   margin: 0 auto;
+max-width: 1220px;
+  
+  
+  /* padding: 5rem 1rem; */
 }
 
 h1 {
@@ -125,7 +128,7 @@ p {
   justify-content: space-between;
   height: 83px;
   border-radius: 50px;
-  margin: 20px auto;
+  /* margin: 20px auto; */
   border-radius: 50px;
   border: 2px solid #fff;
   background: linear-gradient(
@@ -172,23 +175,13 @@ ul {
   font-size: 0.8rem;
 }
 
-.button {
-  background-color: #4caf50;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
 
-.navbar .btn-orange {
-  box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.1),
-    -5px -5px 10px 5px rgba(255, 255, 255, 0.1);
-}
+
+
 
 /* navbar responsive  */
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .nav-links {
     display: none;
     flex-direction: column;
@@ -215,7 +208,7 @@ ul {
   .button {
     margin-top: 10px;
   }
-}
+} */
 
 /* home section  */
 
