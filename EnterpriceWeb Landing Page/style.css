@@ -10,7 +10,7 @@
 body {
   background: #ebecf0;
   overflow-x: hidden;
-  max-width: fit-content;
+  max-width: none;
   width: 100vw;
 }
 
@@ -56,8 +56,10 @@ li {
 /* reusable css custom classes */
 
 .container {
+  position:relative;
   width: 100%;
-  /* margin: auto; */
+  margin: auto;
+  border: 5px solid black;
   max-width: 1220px;
 }
 
@@ -77,59 +79,6 @@ p {
   height: 50px;
 }
 
-/* .btn-orange {
-  border-radius: 31px;
-  padding: 10px 50px;
-  background: rgb(255, 145, 58);
-  letter-spacing: 3px;
-  border: 1px solid white;
-  max-width: 235px;
-  min-height: 50px;
-  background: linear-gradient(
-    90deg,
-    #ff913a 2.17%,
-    #f88224 50.45%,
-    #e46e10 98.39%
-  );
-  box-shadow: 6px 5px 10px 3px rgba(54, 54, 54, 0.24), -8px -8px 10px 0px #fff;
-
-  color: #000;
-  font-feature-settings: "clig" off, "liga" off;
-  font-family: Roboto;
-  font-size: 0.875rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-
-.btn-white {
-  border-radius: 31px;
-  padding: 10px 50px;
-  letter-spacing: 3px;
-  max-width: 220px;
-  min-height: 50px;
-  border: 2px solid #fff;
-  background: linear-gradient(
-    95deg,
-    #dcdde2 4.48%,
-    #e2e3e7 7.97%,
-    #ebecf0 44.7%,
-    #e4e6eb 44.7%
-  );
-  box-shadow: 6px 5px 10px 3px rgba(54, 54, 54, 0.24), -8px -8px 10px 0px #fff;
-
-  color: #000;
-  font-feature-settings: "clig" off, "liga" off;
-  font-family: Roboto;
-  font-size: 0.875rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-} */
 
 .btn-orange {
   max-width: 14.6875rem;
@@ -200,9 +149,10 @@ p {
 
 .header {
   max-width: 79.875rem;
-  width: 100%;
+  /* width: 100%; */
   height: 5.1875rem;
-  margin: auto;
+  margin: 0 auto;
+    width:100%;
   border-radius: 3.125rem;
   border: 2px solid #fff;
   background: linear-gradient(
@@ -276,15 +226,16 @@ ul li a {
 
 .grid-section {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1fr 1fr;
   gap: 20px;
-  position: relative;
+  height: 500px;
 }
 
 .text-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  grid-column: 1 / 2;
 }
 
 .text-content h1 {
@@ -354,10 +305,10 @@ ul li a {
   flex-direction: column; */
 }
 
-.container .buttons button {
+/* .container .buttons button {
   width: 300px;
   height: 50px;
-}
+} */
 }
 
 /* platform container */
