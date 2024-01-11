@@ -1,7 +1,7 @@
 /* css univarsal declarations */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700;800;900&family=Raleway:wght@200;300;400;600;800&family=Roboto:wght@100;300;500;700;900&display=swap");
 
-* {
+*, *::before,*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10,8 +10,7 @@
 body {
   background: #ebecf0;
   overflow-x: hidden;
-  max-width: none;
-  width: 100vw;
+  
 }
 
 a {
@@ -59,7 +58,7 @@ li {
   position:relative;
   width: 100%;
   margin: auto;
-  border: 5px solid black;
+  /* border: 5px solid black; */
   max-width: 1220px;
 }
 
@@ -151,7 +150,7 @@ p {
   max-width: 79.875rem;
   /* width: 100%; */
   height: 5.1875rem;
-  margin: 0 auto;
+  margin: 1rem auto;
     width:100%;
   border-radius: 3.125rem;
   border: 2px solid #fff;
@@ -203,7 +202,7 @@ ul li a {
   line-height: normal;
 }
 
-@media (max-width: 767.98px){
+@media (max-width: 1024px){
 
 .header{
   padding: 0 3rem;
@@ -281,8 +280,23 @@ ul li a {
 
 /* responsive hero section  */
 
+@media (max-width: 1024px){
+  .container {
+    max-width: 800px;
+  }
+  
+  .text-content h1 {
+    font-size: 3.5rem;
+  }
+  
+  .text-content p {
+    font-size: 1.6rem;
+  }
+}
+
 @media (max-width: 767.98px){
-.image-content {
+
+  .image-content {
   display: none;
 }
 
@@ -298,6 +312,15 @@ ul li a {
   justify-content: center;
   align-items: center;
 }
+
+
+.text-content h1 {
+  font-size: 3rem;
+}
+
+.text-content p {
+  font-size: 1.5rem;
+}
 .container .buttons {
   /* display: flex;
   justify-content: center;
@@ -305,10 +328,54 @@ ul li a {
   flex-direction: column; */
 }
 
-/* .container .buttons button {
+.container .buttons button {
   width: 300px;
   height: 50px;
-} */
+}
+}
+
+@media (max-width: 575.98px){
+  .text-content h1 {
+    font-size: 2.5rem;
+  }
+  
+  .text-content p {
+    font-size: 1.2rem;
+  }
+
+  .container .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .container .buttons button {
+  width: 300px;
+  height: 50px;
+}
+}
+
+@media (max-width: 575.98px){
+  .text-content h1 {
+    font-size: 2.2rem;
+  }
+  
+  .text-content p {
+    font-size: 1rem;
+  }
+
+  .container .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .container .buttons button {
+  width: 300px;
+  height: 50px;
+}
 }
 
 /* platform container */
@@ -408,6 +475,10 @@ ul li a {
 
 /* solutions .container  */
 
+.solutions-container {
+  margin-top: 300px;
+}
+
 .solutions-box {
   width: 86.53vw;
   height: 47.0625rem;
@@ -430,14 +501,12 @@ ul li a {
 }
 
 .solutions-image {
-  grid-column: 1;
+  grid-column: 1/2;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
   border-radius: 20px;
-  /* width: 31.13vh;
-  height: 38.54vh; */
   aspect-ratio: 16/9;
   justify-self: center;
   align-self: top;
@@ -533,12 +602,48 @@ ul li a {
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  /* 150% */
 }
 
 .solutions-list {
   display: grid;
   gap: 0.4rem;
+}
+
+@media (max-width: 767.98px){
+
+
+.grid-item-text {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grid-section {
+  all: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.text-content h1 {
+  font-size: 3rem;
+}
+
+.text-content p {
+  font-size: 1.5rem;
+}
+.container .buttons {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; */
+}
+
+.container .buttons button {
+  width: 300px;
+  height: 50px;
+}
 }
 
 /* partners section  */
