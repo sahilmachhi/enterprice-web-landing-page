@@ -495,17 +495,18 @@ ul li a {
 
 .solutions-grid {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: auto(20vw);
   height: 38.54vh;
   padding-top: 72px;
 }
 
 .solutions-image {
-  grid-column: 1/2;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  width: 26.58525rem;
+  height: 15.44319rem;
   border-radius: 20px;
   aspect-ratio: 16/9;
   justify-self: center;
@@ -519,7 +520,6 @@ ul li a {
 }
 
 .solutions-li {
-  grid-column: 2;
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -644,6 +644,8 @@ ul li a {
   width: 300px;
   height: 50px;
 }
+
+
 }
 
 /* partners section  */
