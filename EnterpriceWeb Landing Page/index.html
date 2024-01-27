@@ -20,11 +20,11 @@
 
   <body>
     <header class="header">
-      <nav class="navbar container flex">
+      <nav class="navbar container flex justify-between">
         <div class="logo">
           <img class="img-logo" src="Images/Logo/logo 1.png" alt="" />
         </div>
-        <ul class="nav-links flex gap-4">
+        <ul class="nav-links hidden gap-4 md:flex justify-between">
           <li><a href="#">Home</a></li>
           <li><a href="#">Platform</a></li>
           <li><a href="#">Solutions</a></li>
@@ -33,8 +33,10 @@
           <li><a href="#">Company</a></li>
           <li><a href="#">Contact Us</a></li>
         </ul>
-        <button class="btn-orange register-btn">REGISTER NOW</button>
-        <div class="nav-icon">
+        <button class="btn-orange register-btn hidden md:block">
+          REGISTER NOW
+        </button>
+        <div class="nav-icon md:hidden">
           <i class="bi bi-list"></i>
         </div>
       </nav>
