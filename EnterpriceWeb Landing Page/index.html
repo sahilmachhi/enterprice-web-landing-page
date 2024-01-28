@@ -15,15 +15,18 @@
   </head>
   <body>
     <!-- navbar  -->
-    <header class="flex bg-red-500">
-      <nav class="bg-green-400">
-        <div class="flex">
+    <header>
+      <nav class="flex justify-between container bg-red-500">
+        <div class="flex w-8 overflow-hidden">
           <img
+            class="object-cover w-full h-full"
             src="/EnterpriceWeb Landing Page/Images/Logo/logo 1.png"
             alt=""
           />
         </div>
-        <ul class="bg-slate-400">
+        <ul
+          class="flex flex-col absolute items-center w-screen justify-center top-7"
+        >
           <li><a href="#">Home</a></li>
           <li><a href="#">Platform</a></li>
           <li><a href="#">Solutions</a></li>
@@ -33,8 +36,8 @@
           <li><a href="#">Contact Us</a></li>
         </ul>
         <button>REGISTER NOW</button>
-        <div>
-          <i class="bi bi-list"></i>
+        <div class="bg-black">
+          <i class="bi bi-list text-xl font-red"></i>
         </div>
       </nav>
     </header>
