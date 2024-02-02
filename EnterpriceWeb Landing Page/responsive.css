@@ -15,7 +15,7 @@
   .nav__items,
   .nav__btn {
     display: flex;
-    font-size: 0.7rem;
+    /* font-size: 0.7rem; */
   }
 
   .nav__items {
@@ -26,24 +26,24 @@
   }
 
   h1 {
-    font-size: calc(var(--heading-size) - 1.2rem);
+    /* font-size: calc(var(--heading-size) - 1.2rem); */
   }
 
   h2 {
-    font-size: calc(var(--semi-heading-size) - 1rem);
+    /* font-size: calc(var(--semi-heading-size) - 1rem); */
     font-family: var(--raleway);
     color: #003966;
   }
 
   p {
-    font-size: calc(var(--paragraph-size) - 0.1rem);
+    /* font-size: calc(var(--paragraph-size) - 0.1rem); */
     color: #004060;
     font-family: var(--roboto);
     font-weight: 400;
   }
 
   .home__container p {
-    font-size: calc(var(--hero-paragraph) - 0.4rem);
+    /* font-size: calc(var(--hero-paragraph) - 0.4rem); */
   }
 
   li p {
@@ -94,6 +94,23 @@
     align-items: baseline;
   }
 
+  .automate__grid {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .automate__grid p {
+    text-align: left;
+  }
+
+  .automate__grid ul {
+    justify-self: baseline;
+    align-self: center;
+    align-items: baseline;
+  }
+
   /* testimonial */
   .testimonial__card {
     padding: 1.8rem 1.8rem;
@@ -133,15 +150,15 @@
   }
 
   h1 {
-    font-size: var(--heading-size);
+    /* font-size: var(--heading-size); */
   }
 
   h2 {
-    font-size: var(--semi-heading-size);
+    /* font-size: var(--semi-heading-size); */
   }
 
   p {
-    font-size: var(--paragraph-size);
+    /* font-size: var(--paragraph-size); */
   }
 
   .testimonial__card {
@@ -149,6 +166,6 @@
     gap: 2rem;
   }
   .home__container p {
-    font-size: var(--hero-paragraph);
+    /* font-size: var(--hero-paragraph); */
   }
 }
