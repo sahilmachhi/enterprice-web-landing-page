@@ -518,3 +518,96 @@ footer {
   /* font-size: 1rem; */
   color: #fff;
 }
+.home {
+  gap: 4rem;
+}
+.hero__img {
+  position: relative;
+  width: 280px;
+  height: 280px;
+  justify-self: center;
+  align-self: center;
+}
+
+.img_span_hero {
+  width: 90px;
+  height: auto;
+  position: relative;
+}
+
+.heroCenter {
+  width: 190px;
+  height: auto;
+}
+
+.hero1 {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  animation: rotateAndScale 9s forwards;
+}
+
+.hero2 {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  z-index: 2;
+  animation: rotateAndScale 4s forwards;
+}
+
+.hero3 {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  z-index: 0;
+  animation: rotateAndScale 3s forwards;
+}
+
+.hero4 {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  z-index: 2;
+  animation: rotateAndScale 4s forwards;
+}
+
+.hero5 {
+  position: absolute;
+  right: -60px;
+  z-index: 0;
+  width: 130px;
+  height: auto;
+  animation: rotateAndScale 5s forwards;
+}
+
+.heroCenter {
+  position: absolute;
+  z-index: 1;
+  animation: rotateAndScale 7s forwards;
+}
+
+.img_span_hero {
+  transform: scale(0);
+  animation-delay: 2s;
+}
+
+@keyframes rotateAndScale {
+  0% {
+    transform: scale(0);
+  }
+  10% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.25) rotate(360deg);
+  }
+  60% {
+    transform: scale(1) rotate(0deg);
+  }
+  75% {
+    transform: scale(1.5) rotate(360deg);
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+}

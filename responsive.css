@@ -170,6 +170,11 @@
     padding: 2rem 2rem;
     max-width: 290px;
   }
+
+  .home {
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
 }
 
 @media (min-width: 321px) and (max-width: 375px) {
@@ -178,6 +183,10 @@
     padding: 2rem 2rem;
     max-width: 320px;
     width: 100%;
+  }
+  .home {
+    flex-direction: column-reverse;
+    gap: 2rem;
   }
 }
 
@@ -188,6 +197,10 @@
     max-width: 375px;
     width: 100%;
   }
+  .home {
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
 }
 
 @media (min-width: 426px) and (max-width: 768px) {
@@ -196,6 +209,10 @@
     padding: 3rem 3rem;
     max-width: 680px;
     width: 100vw;
+  }
+  .home {
+    flex-direction: column-reverse;
+    gap: 2rem;
   }
 }
 
