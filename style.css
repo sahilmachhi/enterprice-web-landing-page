@@ -76,6 +76,10 @@ li {
   list-style: none;
 }
 
+.automate__grid p {
+  line-height: 150%;
+}
+
 img {
   object-fit: cover;
   object-position: center center;
@@ -218,6 +222,8 @@ header {
   cursor: pointer;
   font-family: var(--roboto);
   font-weight: 700;
+  background-color: wheat;
+  z-index: 2;
   /* font-size: 0.875rem; */
 }
 
