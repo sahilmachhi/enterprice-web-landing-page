@@ -6,6 +6,13 @@
     <title>EnterpriseWeb</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.css"
+      integrity="sha512-dUOcWaHA4sUKJgO7lxAQ0ugZiWjiDraYNeNJeRKGOIpEq4vroj1DpKcS3jP0K4Js4v6bXk31AAxAxaYt3Oi9xw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
       integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
@@ -21,34 +28,42 @@
   </head>
   <body>
     <!-- navbar  -->
-    <header class="header">
-      <nav class="navbar flex-center">
-        <div class="logo__nav flex-center">
-          <img src="./Images/Logo/logo-1.png" alt="" />
-        </div>
+    <header>
+      <nav class="navbar flex-center flex-col">
+        <div class="navbar__header flex-center">
+          <div class="logo__nav flex-center">
+            <img src="./Images/Logo/2-EW-logo-black.png" alt="" />
+          </div>
 
-        <ul class="nav__items">
-          <li class="nav__item"><a href="#">Home</a></li>
-          <li class="nav__item"><a href="#">services</a></li>
-          <li class="nav__item"><a href="#">partners</a></li>
-          <li class="nav__item"><a href="#">testimonials</a></li>
+          <ul class="desktop__navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#automate">automate</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#partners">Partners</a></li>
+            <li><a href="#testimonial">testimonial</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+
+          <div class="mobile__icon" id="toggleNav">
+            <i class="ri-menu-2-line"></i>
+          </div>
+
+          <button class="navbar__btn btn__orange">Get Quote</button>
+        </div>
+        <ul class="mobile__navbar flex-center flex-col">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#automate">automate</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#partners">Partners</a></li>
+          <li><a href="#testimonial">testimonial</a></li>
+          <li><a href="#contact">Contact Us</a></li>
         </ul>
-
-        <button class="btn__orange nav__btn">Register Now</button>
-
-        <div id="toggleNav" class="nav-icon">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            fill="currentColor"
-          >
-            <path d="M3 4H21V6H3V4ZM3 11H15V13H3V11ZM3 18H21V20H3V18Z"></path>
-          </svg>
-        </div>
       </nav>
     </header>
-
-    <section class="home container flex-center">
+    <!-- hero section  -->
+    <section class="home container flex-center" id="home">
       <div class="home__container flex-center flex-col">
         <h1>
           No Code <br />
@@ -87,7 +102,7 @@
       </div>
     </section>
 
-    <section class="events">
+    <section class="events" id="events">
       <div class="events__container glass container flex-center flex-col">
         <h2>Complex events made <span>easy™</span></h2>
         <p>
@@ -136,7 +151,7 @@
       </div>
     </section>
 
-    <section class="automate">
+    <section class="automate" id="automate">
       <div class="automate__container container glass flex-center flex-col">
         <div class="automate__img">
           <img src="./Images/photo-1542744173-8e7e53415bb0.jpeg" alt="" />
@@ -195,7 +210,7 @@
       </div>
     </section>
 
-    <section class="service">
+    <section class="service" id="service">
       <div class="service__container container flex-center flex-col glass">
         <h2>Context-as-a-Service</h2>
         <p>
@@ -239,7 +254,7 @@
       </div>
     </section>
 
-    <section class="partners container">
+    <section class="partners container" id="partners">
       <div class="partners__section flex-center flex-col">
         <h1 class="heading__h1">Our Partners</h1>
         <div class="partners-grid flex-center flex-col">
@@ -262,7 +277,7 @@
       </div>
     </section>
 
-    <section class="testimonial">
+    <section class="testimonial" id="testimonial">
       <div class="container testimonial__section flex-center flex-col">
         <h1 class="heading__h1">Our testimonials</h1>
         <div class="partners-grid flex-center flex-col">
@@ -309,7 +324,7 @@
       </div>
     </section>
 
-    <section class="get__started flex-center">
+    <section class="get__started flex-center" id="contact">
       <h2>Let’s make things awesome.</h2>
       <button class="btn__white">get quote</button>
     </section>

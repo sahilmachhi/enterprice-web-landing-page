@@ -1,5 +1,5 @@
 const toggleNavIcon = document.querySelector('#toggleNav');
-const navItems = document.querySelector('.nav__items');
+const navItems = document.querySelector('.mobile__navbar');
 
 
 toggleNavIcon.addEventListener('click', function () {
