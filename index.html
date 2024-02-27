@@ -1,57 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>EnterpriseWeb</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="responsive.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.css"
-      integrity="sha512-dUOcWaHA4sUKJgO7lxAQ0ugZiWjiDraYNeNJeRKGOIpEq4vroj1DpKcS3jP0K4Js4v6bXk31AAxAxaYt3Oi9xw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
-      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
-      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-  </head>
-  <body>
-    <!-- navbar  -->
-    <header>
-      <nav class="navbar flex-center flex-col">
-        <div class="navbar__header flex-center">
-          <div class="logo__nav flex-center">
-            <img src="./Images/Logo/2-EW-logo-black.png" alt="" />
-          </div>
 
-          <ul class="desktop__navbar">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#events">Events</a></li>
-            <li><a href="#automate">automate</a></li>
-            <li><a href="#service">Service</a></li>
-            <li><a href="#partners">Partners</a></li>
-            <li><a href="#testimonial">testimonial</a></li>
-            <li><a href="#contact">Contact Us</a></li>
-          </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enterprise Web</title>
+  <meta name="description" content="Enteprise Web created by Sahil">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="responsive.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.css"
+    integrity="sha512-dUOcWaHA4sUKJgO7lxAQ0ugZiWjiDraYNeNJeRKGOIpEq4vroj1DpKcS3jP0K4Js4v6bXk31AAxAxaYt3Oi9xw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+    integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+    integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
 
-          <div class="mobile__icon" id="toggleNav">
-            <i class="ri-menu-2-line"></i>
-          </div>
-
-          <button class="navbar__btn btn__orange">Get Quote</button>
+<body>
+  <!-- navbar  -->
+  <header>
+    <nav class="navbar flex-center flex-col">
+      <div class="navbar__header flex-center">
+        <div class="logo__nav flex-center">
+          <img src="./Images/Logo/2-EW-logo-black.png" alt="logo" />
         </div>
-        <ul class="mobile__navbar flex-center flex-col">
+
+        <ul class="desktop__navbar">
           <li><a href="#home">Home</a></li>
           <li><a href="#events">Events</a></li>
           <li><a href="#automate">automate</a></li>
@@ -60,307 +37,320 @@
           <li><a href="#testimonial">testimonial</a></li>
           <li><a href="#contact">Contact Us</a></li>
         </ul>
-      </nav>
-    </header>
-    <!-- hero section  -->
-    <section class="home container flex-center" id="home">
-      <div class="home__container flex-center flex-col">
-        <h1>
-          No Code <br />
-          No Compromises
-        </h1>
-        <p>
-          EnterpriseWeb is the first industrial-grade no-code platform
-          specifically designed for software engineers.
-        </p>
-        <div class="home__links flex-center flex-col">
-          <button class="btn__orange">Register Now</button>
-          <button class="btn__white">Get A Quote</button>
+
+        <div class="mobile__icon" id="toggleNav">
+          <i class="ri-menu-2-line"></i>
         </div>
+
+        <button class="navbar__btn btn__orange">Get Quote</button>
       </div>
-      <div class="hero__img flex-center flex-col">
-        <div class="hero1 img_span_hero">
-          <img src="Images/Logo/hero3.png" alt="" />
-        </div>
-        <div class="hero2 img_span_hero">
-          <img src="Images/Logo/hero2.png" alt="" />
-        </div>
-
-        <div class="heroCenter img_span_hero">
-          <img src="Images/Logo/hero1.png" alt="" />
-        </div>
-
-        <div class="hero3 img_span_hero">
-          <img src="Images/Logo/hero2.png" alt="" />
-        </div>
-        <div class="hero4 img_span_hero">
-          <img src="Images/Logo/hero3.png" alt="" />
-        </div>
-        <div class="hero5 img_span_hero">
-          <img src="Images/Logo/hero3.png" alt="" />
-        </div>
+      <ul class="mobile__navbar flex-center flex-col">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#automate">automate</a></li>
+        <li><a href="#service">Service</a></li>
+        <li><a href="#partners">Partners</a></li>
+        <li><a href="#testimonial">testimonial</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- hero section  -->
+  <section class="home container flex-center" id="home">
+    <div class="home__container flex-center flex-col">
+      <h1>
+        No Code <br />
+        No Compromises
+      </h1>
+      <p>
+        EnterpriseWeb is the first industrial-grade no-code platform
+        specifically designed for software engineers.
+      </p>
+      <div class="home__links flex-center flex-col">
+        <button class="btn__orange">Register Now</button>
+        <button class="btn__white">Get A Quote</button>
       </div>
-    </section>
-
-    <section class="events" id="events">
-      <div class="events__container glass container flex-center flex-col">
-        <h2>Complex events made <span>easy™</span></h2>
-        <p>
-          Declaratively model “intent-based” services and chain services into
-          event-driven dataflow processes. The platform supports monitoring and
-          the use of event-based triggers to maintain declarative state for
-          closed-loop automation.
-        </p>
-        <div class="events__grid">
-          <div class="events__img">
-            <img src="./Images/photo-1542744173-8e7e53415bb0.jpeg" alt="" />
-          </div>
-          <div class="events__text flex-center flex-col">
-            <ul class="flex-center flex-col list__items">
-              <li class="flex-center">
-                <div>
-                  <img src="./Images/events.svg" alt="" />
-                </div>
-                <p>Complex async/concurrent multi-domain coordination</p>
-              </li>
-
-              <li class="flex-center">
-                <div class="flex-center">
-                  <img src="./Images/events.svg" alt="" />
-                </div>
-                <p>Multi-step async/concurrent operations</p>
-              </li>
-
-              <li class="flex-center">
-                <div>
-                  <img src="./Images/events.svg" alt="" />
-                </div>
-                <p>Long-running async/concurrent processes</p>
-              </li>
-
-              <li class="flex-center">
-                <div>
-                  <img src="./Images/events.svg" alt="" />
-                </div>
-                <p>Distributed transactions</p>
-              </li>
-            </ul>
-            <button class="btn__white">get a Quote</button>
-          </div>
-        </div>
+    </div>
+    <div class="hero__img flex-center flex-col">
+      <div class="hero1 img_span_hero">
+        <img src="Images/Logo/hero3.png" alt="hero" />
       </div>
-    </section>
+      <div class="hero2 img_span_hero">
+        <img src="Images/Logo/hero2.png" alt="hero" />
+      </div>
 
-    <section class="automate" id="automate">
-      <div class="automate__container container glass flex-center flex-col">
-        <div class="automate__img">
+      <div class="heroCenter img_span_hero">
+        <img src="Images/Logo/hero1.png" alt="hero" />
+      </div>
+
+      <div class="hero3 img_span_hero">
+        <img src="Images/Logo/hero2.png" alt="hero" />
+      </div>
+      <div class="hero4 img_span_hero">
+        <img src="Images/Logo/hero3.png" alt="hero" />
+      </div>
+      <div class="hero5 img_span_hero">
+        <img src="Images/Logo/hero3.png" alt="hero" />
+      </div>
+    </div>
+  </section>
+
+  <section class="events" id="events">
+    <div class="events__container glass container flex-center flex-col">
+      <h2>Complex events made <span>easy™</span></h2>
+      <p>
+        Declaratively model “intent-based” services and chain services into
+        event-driven dataflow processes. The platform supports monitoring and
+        the use of event-based triggers to maintain declarative state for
+        closed-loop automation.
+      </p>
+      <div class="events__grid">
+        <div class="events__img">
           <img src="./Images/photo-1542744173-8e7e53415bb0.jpeg" alt="" />
         </div>
-        <h2>Integrate, orchestrate, automate anything!</h2>
-        <div class="automate__grid">
-          <p>
-            The model-driven platform provides a consistency layer so
-            development teams can reason over diverse & distributed service
-            elements, manage complex dependencies and trouble-shoot issues. The
-            model provides shared metadata, relationships and types for
-            interoperability and automation. Developers declaratively compose
-            services and the runtime binds necessary middleware services to
-            implement them. EnterpriseWeb no-code platform liberates developers
-            from tedious & repetitive integration tasks so they can focus on the
-            business.
-          </p>
+        <div class="events__text flex-center flex-col">
           <ul class="flex-center flex-col list__items">
             <li class="flex-center">
               <div>
-                <img src="./Images/events2.svg" alt="" />
+                <img src="./Images/events.svg" alt="" />
               </div>
-              <p>People & Processes</p>
+              <p>Complex async/concurrent multi-domain coordination</p>
+            </li>
+
+            <li class="flex-center">
+              <div class="flex-center">
+                <img src="./Images/events.svg" alt="" />
+              </div>
+              <p>Multi-step async/concurrent operations</p>
             </li>
 
             <li class="flex-center">
               <div>
-                <img src="./Images/events2.svg" alt="" />
+                <img src="./Images/events.svg" alt="" />
               </div>
-              <p>Systems & Services</p>
+              <p>Long-running async/concurrent processes</p>
             </li>
 
             <li class="flex-center">
               <div>
-                <img src="./Images/events2.svg" alt="" />
+                <img src="./Images/events.svg" alt="" />
               </div>
-              <p>Databases & Devices</p>
-            </li>
-
-            <li class="flex-center">
-              <div>
-                <img src="./Images/events2.svg" alt="" />
-              </div>
-              <p>Applications & Artifacts</p>
-            </li>
-
-            <li class="flex-center">
-              <div>
-                <img src="./Images/events2.svg" alt="" />
-              </div>
-              <p>Infrastructure & Networks</p>
+              <p>Distributed transactions</p>
             </li>
           </ul>
+          <button class="btn__white">get a Quote</button>
         </div>
-        <button class="btn__white">get a quote</button>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="service" id="service">
-      <div class="service__container container flex-center flex-col glass">
-        <h2>Context-as-a-Service</h2>
+  <section class="automate" id="automate">
+    <div class="automate__container container glass flex-center flex-col">
+      <div class="automate__img">
+        <img src="./Images/photo-1542744173-8e7e53415bb0.jpeg" alt="" />
+      </div>
+      <h2>Integrate, orchestrate, automate anything!</h2>
+      <div class="automate__grid">
         <p>
-          The graph domain model efficiently hydrates context for stateless
-          services. It supports stateful Cloud-native applications that are
-          highly-responsive. The platform runtime can leverage local & global
-          context to interpret events, automate decisions and customize
-          payload(s) for every system interaction.
+          The model-driven platform provides a consistency layer so
+          development teams can reason over diverse & distributed service
+          elements, manage complex dependencies and trouble-shoot issues. The
+          model provides shared metadata, relationships and types for
+          interoperability and automation. Developers declaratively compose
+          services and the runtime binds necessary middleware services to
+          implement them. EnterpriseWeb no-code platform liberates developers
+          from tedious & repetitive integration tasks so they can focus on the
+          business.
         </p>
+        <ul class="flex-center flex-col list__items">
+          <li class="flex-center">
+            <div>
+              <img src="./Images/events2.svg" alt="" />
+            </div>
+            <p>People & Processes</p>
+          </li>
 
-        <div class="events__grid flex-center flex-col">
-          <div class="events__img">
-            <img src="./Images/photo-1542744173-8e7e53415bb0.jpeg" alt="" />
+          <li class="flex-center">
+            <div>
+              <img src="./Images/events2.svg" alt="" />
+            </div>
+            <p>Systems & Services</p>
+          </li>
+
+          <li class="flex-center">
+            <div>
+              <img src="./Images/events2.svg" alt="" />
+            </div>
+            <p>Databases & Devices</p>
+          </li>
+
+          <li class="flex-center">
+            <div>
+              <img src="./Images/events2.svg" alt="" />
+            </div>
+            <p>Applications & Artifacts</p>
+          </li>
+
+          <li class="flex-center">
+            <div>
+              <img src="./Images/events2.svg" alt="" />
+            </div>
+            <p>Infrastructure & Networks</p>
+          </li>
+        </ul>
+      </div>
+      <button class="btn__white">get a quote</button>
+    </div>
+  </section>
+
+  <section class="service" id="service">
+    <div class="service__container container flex-center flex-col glass">
+      <h2>Context-as-a-Service</h2>
+      <p>
+        The graph domain model efficiently hydrates context for stateless
+        services. It supports stateful Cloud-native applications that are
+        highly-responsive. The platform runtime can leverage local & global
+        context to interpret events, automate decisions and customize
+        payload(s) for every system interaction.
+      </p>
+
+      <div class="events__grid flex-center flex-col">
+        <div class="events__img">
+          <img src="./Images/photo-1542744173-8e7e53415bb0.jpeg" alt="" />
+        </div>
+        <div class="events__text flex-center flex-col">
+          <ul class="flex-center flex-col list__items">
+            <li class="flex-center">
+              <div>
+                <img src="./Images/events.svg" alt="" />
+              </div>
+              <p>Personalize user-experiences</p>
+            </li>
+
+            <li class="flex-center">
+              <div class="flex-center">
+                <img src="./Images/events.svg" alt="" />
+              </div>
+              <p>Synchronize operations</p>
+            </li>
+
+            <li class="flex-center">
+              <div>
+                <img src="./Images/events.svg" alt="" />
+              </div>
+              <p>Optimize transactions</p>
+            </li>
+          </ul>
+          <button class="btn__white">get a Quote</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="partners container" id="partners">
+    <div class="partners__section flex-center flex-col">
+      <h1 class="heading__h1">Our Partners</h1>
+      <div class="partners-grid flex-center flex-col">
+        <div class="brandbox flex-center">
+          <div class="brand__img flex-center">
+            <img src="./Images/brands/image 3.png" alt="" />
           </div>
-          <div class="events__text flex-center flex-col">
-            <ul class="flex-center flex-col list__items">
-              <li class="flex-center">
-                <div>
-                  <img src="./Images/events.svg" alt="" />
-                </div>
-                <p>Personalize user-experiences</p>
-              </li>
-
-              <li class="flex-center">
-                <div class="flex-center">
-                  <img src="./Images/events.svg" alt="" />
-                </div>
-                <p>Synchronize operations</p>
-              </li>
-
-              <li class="flex-center">
-                <div>
-                  <img src="./Images/events.svg" alt="" />
-                </div>
-                <p>Optimize transactions</p>
-              </li>
-            </ul>
-            <button class="btn__white">get a Quote</button>
+        </div>
+        <div class="brandbox flex-center">
+          <div class="brand__img flex-center">
+            <img src="./Images/brands/image 4.png" alt="" />
+          </div>
+        </div>
+        <div class="brandbox flex-center">
+          <div class="brand__img flex-center">
+            <img src="./Images/brands/image 5.png" alt="" />
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="partners container" id="partners">
-      <div class="partners__section flex-center flex-col">
-        <h1 class="heading__h1">Our Partners</h1>
-        <div class="partners-grid flex-center flex-col">
-          <div class="brandbox flex-center">
-            <div class="brand__img flex-center">
-              <img src="./Images/brands/image 3.png" alt="" />
-            </div>
+  <section class="testimonial" id="testimonial">
+    <div class="container testimonial__section flex-center flex-col">
+      <h1 class="heading__h1">Our testimonials</h1>
+      <div class="partners-grid flex-center flex-col">
+        <div class="testimonial__card flex-center flex-col">
+          <div class="profile__img flex-center">
+            <img src="./Images/Person.png" alt="" />
           </div>
-          <div class="brandbox flex-center">
-            <div class="brand__img flex-center">
-              <img src="./Images/brands/image 4.png" alt="" />
-            </div>
-          </div>
-          <div class="brandbox flex-center">
-            <div class="brand__img flex-center">
-              <img src="./Images/brands/image 5.png" alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="testimonial" id="testimonial">
-      <div class="container testimonial__section flex-center flex-col">
-        <h1 class="heading__h1">Our testimonials</h1>
-        <div class="partners-grid flex-center flex-col">
-          <div class="testimonial__card flex-center flex-col">
-            <div class="profile__img flex-center">
-              <img src="./Images/Person.png" alt="" />
-            </div>
-            <div class="review flex-center flex-col">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi epudiandae raesentium
-                optio, eaque rerum!
-              </p>
-              <h3>----- Dave Duggal</h3>
-            </div>
-          </div>
-          <div class="testimonial__card flex-center flex-col">
-            <div class="profile__img flex-center">
-              <img src="./Images/Person.png" alt="" />
-            </div>
-            <div class="review flex-center flex-col">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi epudiandae raesentium
-                optio, eaque rerum!
-              </p>
-              <h3>----- Dave Duggal</h3>
-            </div>
-          </div>
-          <div class="testimonial__card flex-center flex-col">
-            <div class="profile__img flex-center">
-              <img src="./Images/Person.png" alt="" />
-            </div>
-            <div class="review flex-center flex-col">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                mollitia, molestiae quas vel sint commodi epudiandae raesentium
-                optio, eaque rerum!
-              </p>
-              <h3>----- Dave Duggal</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="get__started flex-center" id="contact">
-      <h2>Let’s make things awesome.</h2>
-      <button class="btn__white">get quote</button>
-    </section>
-
-    <footer>
-      <div class="footer-content flex-center flex-col">
-        <div class="flex-center flex-col footer__container">
-          <div class="footer-logo flex-center flex-col">
-            <img
-              class="img-logo"
-              src="./Images/Logo/2-EW-logo-black.png"
-              alt="Logo"
-            />
+          <div class="review flex-center flex-col">
             <p>
-              EnterpriseWeb is the first industrial-grade no-code platform
-              specifically designed for software engineers.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              mollitia, molestiae quas vel sint commodi epudiandae raesentium
+              optio, eaque rerum!
             </p>
-          </div>
-          <div class="important-links flex-center flex-col">
-            <h3>Important Links</h3>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms & Conditions</a>
-            <a href="#">Terms of Service</a>
-          </div>
-          <div class="contact-details flex-center flex-col">
-            <h3>Contact Details</h3>
-            <p>123 Main Street, Cityville</p>
-            <p>Email: info@example.com</p>
-            <p>Phone: +1 (555) 123-4567</p>
+            <h3>----- Dave Duggal</h3>
           </div>
         </div>
-        <div class="copyright">
-          © EntepriseWeb LLC, 2021. All rights reserved.
+        <div class="testimonial__card flex-center flex-col">
+          <div class="profile__img flex-center">
+            <img src="./Images/Person.png" alt="" />
+          </div>
+          <div class="review flex-center flex-col">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              mollitia, molestiae quas vel sint commodi epudiandae raesentium
+              optio, eaque rerum!
+            </p>
+            <h3>----- Dave Duggal</h3>
+          </div>
+        </div>
+        <div class="testimonial__card flex-center flex-col">
+          <div class="profile__img flex-center">
+            <img src="./Images/Person.png" alt="" />
+          </div>
+          <div class="review flex-center flex-col">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              mollitia, molestiae quas vel sint commodi epudiandae raesentium
+              optio, eaque rerum!
+            </p>
+            <h3>----- Dave Duggal</h3>
+          </div>
         </div>
       </div>
-    </footer>
-    <script src="main.js"></script>
-  </body>
+    </div>
+  </section>
+
+  <section class="get__started flex-center" id="contact">
+    <h2>Let’s make things awesome.</h2>
+    <button class="btn__white">get quote</button>
+  </section>
+
+  <footer>
+    <div class="footer-content flex-center flex-col">
+      <div class="flex-center flex-col footer__container">
+        <div class="footer-logo flex-center flex-col">
+          <img class="img-logo" src="./Images/Logo/2-EW-logo-black.png" alt="Logo" />
+          <p>
+            EnterpriseWeb is the first industrial-grade no-code platform
+            specifically designed for software engineers.
+          </p>
+        </div>
+        <div class="important-links flex-center flex-col">
+          <h3>Important Links</h3>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Terms of Service</a>
+        </div>
+        <div class="contact-details flex-center flex-col">
+          <h3>Contact Details</h3>
+          <p>123 Main Street, Cityville</p>
+          <p>Email: info@example.com</p>
+          <p>Phone: +1 (555) 123-4567</p>
+        </div>
+      </div>
+      <div class="copyright">
+        © EntepriseWeb LLC, 2021. All rights reserved.
+      </div>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+
 </html>
